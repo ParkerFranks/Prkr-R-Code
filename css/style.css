@@ -54,7 +54,7 @@
   .phone-img {
     position: absolute;
     bottom: 0;
-    right: 65%;
+    right: 70%;
     transform: translateX(-50%);
     z-index: -1;
     float: right;
