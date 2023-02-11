@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>The Prk-R App</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=SF+Pro&display=swap" rel="stylesheet">
+
+<body>
+  <div class="container">
+    <h1>Welcome to the Prk-R App</h1>
+    <h2>"Find your spot, every time. With Prk-R."</h2>
+    <div class="btn-group">
+      <a href="#" class="btn">Download on App Store</a>
+      <a href="#" class="btn">Download on Google Play</a>
+    </div>
+    <div>
+        <img src="images/prkrapp.png" class="phone-img">
+      </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $(".btn").click(function() {
+      alert("You are now being redirected to the App Store to download our app. Enjoy!");
+    });
+  });
+</script>
+</body>
+</html>
